@@ -1,5 +1,3 @@
-console.log('CustomerCtrl loaded');
-
 app.controller('customerCtrl', ['$scope', 'storeFactory', function($scope, SF) {
 
     function getCustomers() {

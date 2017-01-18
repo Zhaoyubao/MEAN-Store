@@ -1,5 +1,3 @@
-console.log('OrderCtrl loaded');
-
 app.controller('orderCtrl', ['$scope', 'storeFactory', function($scope, SF) {
 
     function getProducts() {

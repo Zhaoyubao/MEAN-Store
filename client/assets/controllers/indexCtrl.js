@@ -1,5 +1,3 @@
-console.log('IndexCtrl loaded');
-
 app.controller('indexCtrl', ['$scope', 'storeFactory', function($scope, SF) {
 
     function getRecentProducts() {

@@ -1,5 +1,3 @@
-console.log('ProductCtrl loaded');
-
 app.controller('productCtrl', ['$scope', 'storeFactory', function($scope, SF) {
 
     function getProducts() {
@@ -12,7 +10,7 @@ app.controller('productCtrl', ['$scope', 'storeFactory', function($scope, SF) {
     $scope.addProduct = function() {
         SF.addProduct($scope.product)
             .then( (res) => {
-                console.log(res.data);
+                // console.log(res.data);
                 $scope.product = {};
                 getProducts();
             })

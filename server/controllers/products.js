@@ -1,5 +1,3 @@
-console.log('Products controller is loaded');
-
 let Product = require('../models/product.js');
 
 module.exports = {

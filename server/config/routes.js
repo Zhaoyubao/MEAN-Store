@@ -1,5 +1,3 @@
-console.log('Routes config is loaded');
-
 let customers = require('../controllers/customers'),
     products = require('../controllers/products'),
     orders = require('../controllers/orders');

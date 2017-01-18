@@ -1,5 +1,3 @@
-console.log('DB config is loaded');
-
 const db = require('mongoose');
 
 db.connect('mongodb://localhost/storeDB');

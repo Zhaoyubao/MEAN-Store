@@ -1,5 +1,3 @@
-console.log('Order model is loaded');
-
 const db = require('mongoose'),
     Schema = db.Schema,
     OrderSchema = new Schema({

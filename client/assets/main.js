@@ -1,5 +1,3 @@
-console.log('Main config is loaded');
-
 const app = angular.module('myApp', ['ngRoute']);
 
 app.config( ($routeProvider) => {

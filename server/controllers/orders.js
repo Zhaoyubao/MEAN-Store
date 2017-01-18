@@ -1,5 +1,3 @@
-console.log('Orders controller is loaded');
-
 let Order = require('../models/order.js');
 
 module.exports = {

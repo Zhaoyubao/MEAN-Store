@@ -14,16 +14,16 @@
 <table id="order">
     <thead>
         <tr>
-            <th ng-click="sortby='_customer.name'; sortBy(sortby)">Customer
+            <th ng-click="sortBy('_customer.name')">Customer
                 <span class="sortorder" ng-show="sortby === '_customer.name'" ng-class="{reverse: reverse}"></span>
             </th>
-            <th ng-click="sortby='_product.name'; sortBy(sortby)">Product
+            <th ng-click="sortBy('_product.name')">Product
                 <span class="sortorder" ng-show="sortby === '_product.name'" ng-class="{reverse: reverse}"></span>
             </th>
-            <th ng-click="sortby='quantity'; sortBy(sortby)">Quantity
+            <th ng-click="sortBy('quantity')">Quantity
                 <span class="sortorder" ng-show="sortby === 'quantity'" ng-class="{reverse: reverse}"></span>
             </th>
-            <th ng-click="sortby='_id'; sortBy(sortby)">Date
+            <th ng-click="sortBy('_id')">Date
                 <span class="sortorder" ng-show="sortby === '_id'" ng-class="{reverse: reverse}"></span>
             </th>
             <th></th>

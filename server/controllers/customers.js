@@ -1,5 +1,3 @@
-console.log('Customers controller is loaded');
-
 let Customer = require('../models/customer');
 
 module.exports = {

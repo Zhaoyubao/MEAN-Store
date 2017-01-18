@@ -1,5 +1,3 @@
-console.log('Product model is loaded');
-
 const db = require('mongoose'),
     ProductSchema = new db.Schema({
         name: String,

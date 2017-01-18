@@ -1,5 +1,3 @@
-console.log('StoreFactory loaded');
-
 app.factory('storeFactory', ['$http', function($http) {
     let factory = {};
 
